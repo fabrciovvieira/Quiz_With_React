@@ -22,7 +22,7 @@ function App() {
 
   return (
     <div className='app'>
-      <h1>Quiz de programação</h1>
+      <h1>Teste seu conhecimento</h1>
       {quizState.gameStage === "Start" && <Welcome/>}
       {quizState.gameStage === "Category" && <Category/>}
       {quizState.gameStage === "Playing" && <Question/>}
